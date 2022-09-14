@@ -25,8 +25,8 @@ public class Main {
         }
     }
     public static void main(String[] args){
-        String str = "Balıkçı";
-        String str1 = "Bıçakla";
+        String str = "Fired";
+        String str1 = "Fried";
         System.out.println(AnagramCheck(str,str1));
 
     }
