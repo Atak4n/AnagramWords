@@ -5,7 +5,7 @@ public class Main {
 
         //checking the length of words
         if (word.length() != secondWord.length()) {
-            System.out.println("Girilen kelimeler anagram değildir.");
+            System.out.println("The words entered are not anagrams.");
             return false;
         }
         else {
@@ -19,7 +19,7 @@ public class Main {
 
             //Comparing the sorted letters, if they are equal, the console indicates that
             if (Arrays.equals(charWord, charSecondWord)) {
-                System.out.println("Girilen kelimeler anagramdır.");
+                System.out.println("The words entered are anagrams.");
             }
             return Arrays.equals(charWord, charSecondWord);
         }
